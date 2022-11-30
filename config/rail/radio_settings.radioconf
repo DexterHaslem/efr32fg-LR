@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multi_phy_configuration part_family="ocelot" part_revision="A0" rail_adapter_version="rail_api_2.x" status_code="0" xsd_version="0.0.20">
+  <base_channel_configurations>
+    <base_channel_configuration name="Protocol Configuration" profile="Long_Range">
+      <channel_config_entries>
+        <channel_config_entry name="Channel Group 1">
+          <channel_number_start>0</channel_number_start>
+          <channel_number_end>20</channel_number_end>
+          <physical_channel_offset>SAME_AS_FIRST_CHANNEL</physical_channel_offset>
+          <max_power>RAIL_TX_POWER_MAX</max_power>
+        </channel_config_entry>
+      </channel_config_entries>
+      <metadata>{"errors":{},"warnings":{},"disabledGizmos":{"frame_type_2_valid":{"frame_type_bits":true},"frame_type_2_filter":{"frame_type_bits":true},"frame_type_2_length":{"frame_type_bits":true},"frame_type_3_valid":{"frame_type_bits":true},"frame_type_3_filter":{"frame_type_bits":true},"frame_type_3_length":{"frame_type_bits":true},"frame_type_4_valid":{"frame_type_bits":true},"frame_type_4_filter":{"frame_type_bits":true},"frame_type_4_length":{"frame_type_bits":true},"frame_type_5_valid":{"frame_type_bits":true},"frame_type_5_filter":{"frame_type_bits":true},"frame_type_5_length":{"frame_type_bits":true},"frame_type_6_valid":{"frame_type_bits":true},"frame_type_6_filter":{"frame_type_bits":true},"frame_type_6_length":{"frame_type_bits":true},"frame_type_7_valid":{"frame_type_bits":true},"frame_type_7_filter":{"frame_type_bits":true},"frame_type_7_length":{"frame_type_bits":true}}}</metadata>
+      <phy name="PHY_Longrange_915M_OQPSK_DSSS8_4p8kbps"/>
+    </base_channel_configuration>
+  </base_channel_configurations>
+</multi_phy_configuration>

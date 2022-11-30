@@ -1,0 +1,9 @@
+*.o
+*.axf
+*.bin
+*.hex
+*.s37
+
+BUILD_BASE/
+BUILD_SENSOR/
+
